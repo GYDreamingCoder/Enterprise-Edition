@@ -1,0 +1,180 @@
+﻿<error errorId="b9d3fd86-167c-4cbe-948e-954cc7a54f9d" application="/LM/W3SVC/10/ROOT" host="EVAN-PC" type="System.Web.HttpException" message="未找到路径“/fonts/glyphicons-halflings-regular.woff”的控制器或该控制器未实现 IController。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 未找到路径“/fonts/glyphicons-halflings-regular.woff”的控制器或该控制器未实现 IController。&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" time="2014-06-30T06:41:30.4517665Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip,deflate,sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1; .ASPXAUTH=F0E4BB3C294A5262C953735D9305816B50E3DEF91D387AE5795D671EE19DE4E8FAEE305F925B56F376672A5A158EE3C6A4557AE3D72A6EDD36C823ABF8E54E32ACFB7B1DC3D9DDE4E884EB268264B233EEC21DC743D02A31560E35DE2B2376059710C4F0C59F371904CFFCBAE37E30B4D33D4C232D7672CFAA83E3FFF5E2D64462A53E7DE6D6DABE29D49CFE78EDBD13D6C8D6A2388B635944B32A31A2CD20DB6045E97CB2FDA38CC931E757D75219A5A613BF7E150808DF59636801605647E2827B2395D7CA1325A8AFD38EABC25D5A40F9D932997C44C5C7DA9177BFB5FF83559024DFA7A3E85BB716B9519433FDC7A0BB119A17100A30A7C619AA2F616D84EC6998AF3735A343F133D122EF4D89A0&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Platform&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;HTTP_RA_VER:2.2.25&#xD;&#xA;HTTP_RA_SID:7509670E-20140628-044314-ef4337-678565&#xD;&#xA;HTTP_ALEXATOOLBAR_ALX_NS_PH:AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip,deflate,sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;Cookie: __RequestVerificationToken=82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1; .ASPXAUTH=F0E4BB3C294A5262C953735D9305816B50E3DEF91D387AE5795D671EE19DE4E8FAEE305F925B56F376672A5A158EE3C6A4557AE3D72A6EDD36C823ABF8E54E32ACFB7B1DC3D9DDE4E884EB268264B233EEC21DC743D02A31560E35DE2B2376059710C4F0C59F371904CFFCBAE37E30B4D33D4C232D7672CFAA83E3FFF5E2D64462A53E7DE6D6DABE29D49CFE78EDBD13D6C8D6A2388B635944B32A31A2CD20DB6045E97CB2FDA38CC931E757D75219A5A613BF7E150808DF59636801605647E2827B2395D7CA1325A8AFD38EABC25D5A40F9D932997C44C5C7DA9177BFB5FF83559024DFA7A3E85BB716B9519433FDC7A0BB119A17100A30A7C619AA2F616D84EC6998AF3735A343F133D122EF4D89A0&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Platform&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;DNT: 1&#xD;&#xA;RA-Ver: 2.2.25&#xD;&#xA;RA-Sid: 7509670E-20140628-044314-ef4337-678565&#xD;&#xA;AlexaToolbar-ALX_NS_PH: AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/10/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="10" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/10" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/fonts/glyphicons-halflings-regular.woff" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\fonts\glyphicons-halflings-regular.woff" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="13209" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/fonts/glyphicons-halflings-regular.woff" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/fonts/glyphicons-halflings-regular.woff" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip,deflate,sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1; .ASPXAUTH=F0E4BB3C294A5262C953735D9305816B50E3DEF91D387AE5795D671EE19DE4E8FAEE305F925B56F376672A5A158EE3C6A4557AE3D72A6EDD36C823ABF8E54E32ACFB7B1DC3D9DDE4E884EB268264B233EEC21DC743D02A31560E35DE2B2376059710C4F0C59F371904CFFCBAE37E30B4D33D4C232D7672CFAA83E3FFF5E2D64462A53E7DE6D6DABE29D49CFE78EDBD13D6C8D6A2388B635944B32A31A2CD20DB6045E97CB2FDA38CC931E757D75219A5A613BF7E150808DF59636801605647E2827B2395D7CA1325A8AFD38EABC25D5A40F9D932997C44C5C7DA9177BFB5FF83559024DFA7A3E85BB716B9519433FDC7A0BB119A17100A30A7C619AA2F616D84EC6998AF3735A343F133D122EF4D89A0" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Platform" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+    <item name="HTTP_RA_VER">
+      <value string="2.2.25" />
+    </item>
+    <item name="HTTP_RA_SID">
+      <value string="7509670E-20140628-044314-ef4337-678565" />
+    </item>
+    <item name="HTTP_ALEXATOOLBAR_ALX_NS_PH">
+      <value string="AlexaToolbar/alxg-3.3" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1" />
+    </item>
+    <item name=".ASPXAUTH">
+      <value string="F0E4BB3C294A5262C953735D9305816B50E3DEF91D387AE5795D671EE19DE4E8FAEE305F925B56F376672A5A158EE3C6A4557AE3D72A6EDD36C823ABF8E54E32ACFB7B1DC3D9DDE4E884EB268264B233EEC21DC743D02A31560E35DE2B2376059710C4F0C59F371904CFFCBAE37E30B4D33D4C232D7672CFAA83E3FFF5E2D64462A53E7DE6D6DABE29D49CFE78EDBD13D6C8D6A2388B635944B32A31A2CD20DB6045E97CB2FDA38CC931E757D75219A5A613BF7E150808DF59636801605647E2827B2395D7CA1325A8AFD38EABC25D5A40F9D932997C44C5C7DA9177BFB5FF83559024DFA7A3E85BB716B9519433FDC7A0BB119A17100A30A7C619AA2F616D84EC6998AF3735A343F133D122EF4D89A0" />
+    </item>
+  </cookies>
+</error>

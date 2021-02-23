@@ -1,0 +1,165 @@
+﻿<error errorId="038eadb9-162d-4cd7-bced-9396cda81248" application="/LM/W3SVC/10/ROOT" host="EVAN-PC" type="System.Web.HttpException" message="未找到路径“/img/select-bg.png”的控制器或该控制器未实现 IController。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 未找到路径“/img/select-bg.png”的控制器或该控制器未实现 IController。&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" time="2014-07-09T07:55:37.5008528Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:Keep-Alive&#xD;&#xA;HTTP_ACCEPT:image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-Hans-CN,zh-Hans;q=0.5&#xD;&#xA;HTTP_COOKIE:mpms 2.0=E2B512A48FE09AE6C726EB53B2A6681AA9EABDBE13142986E6BF42477CB75151BBB81DA50591FA11BCF03010981744534A3F1CCBA4F83934F560EEFE4837DA61EF3AD88CCF6621B2666457F8131A88C0B1F0710DD25C8A2B17E483DB22D154EC0417BE70E73C87EDC7F01A21A48D1C572FCC91A348B4C48C65AA7B1577D6CDC05519DF2F1D4621B510211CB479652CBDBDA1FD3336FF7E5947123FA58F6B1358AB432D2F48A3AF7391D117BA1E2265CE84F81F8D79EC4AFC6CC4416CDF3D4BD5D738A77B57F9BA6BED14784E470A207D0A601CFC761C213BF0C8083E079FFC6D1A2F9FF7B7C8C79EBA1FCD41F3201A7FE183CF3813965C4AF72B865826BB08BCA538449F885B073030F5C87D79FEDD75&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Platform&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: Keep-Alive&#xD;&#xA;Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: zh-Hans-CN,zh-Hans;q=0.5&#xD;&#xA;Cookie: mpms 2.0=E2B512A48FE09AE6C726EB53B2A6681AA9EABDBE13142986E6BF42477CB75151BBB81DA50591FA11BCF03010981744534A3F1CCBA4F83934F560EEFE4837DA61EF3AD88CCF6621B2666457F8131A88C0B1F0710DD25C8A2B17E483DB22D154EC0417BE70E73C87EDC7F01A21A48D1C572FCC91A348B4C48C65AA7B1577D6CDC05519DF2F1D4621B510211CB479652CBDBDA1FD3336FF7E5947123FA58F6B1358AB432D2F48A3AF7391D117BA1E2265CE84F81F8D79EC4AFC6CC4416CDF3D4BD5D738A77B57F9BA6BED14784E470A207D0A601CFC761C213BF0C8083E079FFC6D1A2F9FF7B7C8C79EBA1FCD41F3201A7FE183CF3813965C4AF72B865826BB08BCA538449F885B073030F5C87D79FEDD75&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Platform&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko&#xD;&#xA;DNT: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/10/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="10" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/10" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/img/select-bg.png" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\img\select-bg.png" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="5404" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/img/select-bg.png" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/img/select-bg.png" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Keep-Alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-Hans-CN,zh-Hans;q=0.5" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="mpms 2.0=E2B512A48FE09AE6C726EB53B2A6681AA9EABDBE13142986E6BF42477CB75151BBB81DA50591FA11BCF03010981744534A3F1CCBA4F83934F560EEFE4837DA61EF3AD88CCF6621B2666457F8131A88C0B1F0710DD25C8A2B17E483DB22D154EC0417BE70E73C87EDC7F01A21A48D1C572FCC91A348B4C48C65AA7B1577D6CDC05519DF2F1D4621B510211CB479652CBDBDA1FD3336FF7E5947123FA58F6B1358AB432D2F48A3AF7391D117BA1E2265CE84F81F8D79EC4AFC6CC4416CDF3D4BD5D738A77B57F9BA6BED14784E470A207D0A601CFC761C213BF0C8083E079FFC6D1A2F9FF7B7C8C79EBA1FCD41F3201A7FE183CF3813965C4AF72B865826BB08BCA538449F885B073030F5C87D79FEDD75" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Platform" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="mpms 2.0">
+      <value string="E2B512A48FE09AE6C726EB53B2A6681AA9EABDBE13142986E6BF42477CB75151BBB81DA50591FA11BCF03010981744534A3F1CCBA4F83934F560EEFE4837DA61EF3AD88CCF6621B2666457F8131A88C0B1F0710DD25C8A2B17E483DB22D154EC0417BE70E73C87EDC7F01A21A48D1C572FCC91A348B4C48C65AA7B1577D6CDC05519DF2F1D4621B510211CB479652CBDBDA1FD3336FF7E5947123FA58F6B1358AB432D2F48A3AF7391D117BA1E2265CE84F81F8D79EC4AFC6CC4416CDF3D4BD5D738A77B57F9BA6BED14784E470A207D0A601CFC761C213BF0C8083E079FFC6D1A2F9FF7B7C8C79EBA1FCD41F3201A7FE183CF3813965C4AF72B865826BB08BCA538449F885B073030F5C87D79FEDD75" />
+    </item>
+  </cookies>
+</error>

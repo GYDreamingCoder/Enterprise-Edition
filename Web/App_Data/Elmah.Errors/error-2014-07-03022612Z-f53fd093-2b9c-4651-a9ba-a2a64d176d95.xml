@@ -1,0 +1,183 @@
+﻿<error errorId="f53fd093-2b9c-4651-a9ba-a2a64d176d95" application="/LM/W3SVC/10/ROOT" host="EVAN-PC" type="System.Web.HttpException" message="未找到路径“/Super Admin Responsive Template_files/twitter.png”的控制器或该控制器未实现 IController。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 未找到路径“/Super Admin Responsive Template_files/twitter.png”的控制器或该控制器未实现 IController。&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" time="2014-07-03T02:26:12.6274837Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip,deflate,sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1; ASP.NET_SessionId=hbw4lr4uqfba0xcbyiqessyd; .ASPXAUTH=E88458EA5DA12D6644132C5F4FB04493C8BE44CBFC7F0AD0BE4DF080E17482C0AD22D84AD04BE6D2A04B9E523B0AF682DB84936BB496BDFF1BB85D104366339C450567624A800C2C12500071EF8CDBD8DF96F76AADC249787B938A74B058DB1F5341E5B5D4E1732154A8D081D1E87672013CE4A1765F989979A5A6EE7A9DEF3607709ACAA78E1536A0513C5027EE003AE79783C804FE92BE79CD79E52F501654EC47D956A4714171E5C60679C4F1707881F2EE783DEF12A89964CB90E39ED9A1BEEF07A7A3DED2CE8756CBB710705DFC4FA9AF42C6A181ADCCD095CDB1CA7C65D3384926BAC323A4C44D4F38F28A242B54CBF54492FD710851FB179246430680ACC2FE32F975BE24B62C349A82BD14C6&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Platform&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;HTTP_RA_VER:2.2.25&#xD;&#xA;HTTP_RA_SID:7509670E-20140628-044314-ef4337-678565&#xD;&#xA;HTTP_ALEXATOOLBAR_ALX_NS_PH:AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Accept: image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip,deflate,sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;Cookie: __RequestVerificationToken=82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1; ASP.NET_SessionId=hbw4lr4uqfba0xcbyiqessyd; .ASPXAUTH=E88458EA5DA12D6644132C5F4FB04493C8BE44CBFC7F0AD0BE4DF080E17482C0AD22D84AD04BE6D2A04B9E523B0AF682DB84936BB496BDFF1BB85D104366339C450567624A800C2C12500071EF8CDBD8DF96F76AADC249787B938A74B058DB1F5341E5B5D4E1732154A8D081D1E87672013CE4A1765F989979A5A6EE7A9DEF3607709ACAA78E1536A0513C5027EE003AE79783C804FE92BE79CD79E52F501654EC47D956A4714171E5C60679C4F1707881F2EE783DEF12A89964CB90E39ED9A1BEEF07A7A3DED2CE8756CBB710705DFC4FA9AF42C6A181ADCCD095CDB1CA7C65D3384926BAC323A4C44D4F38F28A242B54CBF54492FD710851FB179246430680ACC2FE32F975BE24B62C349A82BD14C6&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Platform&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;DNT: 1&#xD;&#xA;RA-Ver: 2.2.25&#xD;&#xA;RA-Sid: 7509670E-20140628-044314-ef4337-678565&#xD;&#xA;AlexaToolbar-ALX_NS_PH: AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/10/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="10" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/10" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Super Admin Responsive Template_files/twitter.png" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\Super Admin Responsive Template_files\twitter.png" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="49601" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Super Admin Responsive Template_files/twitter.png" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Super Admin Responsive Template_files/twitter.png" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip,deflate,sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1; ASP.NET_SessionId=hbw4lr4uqfba0xcbyiqessyd; .ASPXAUTH=E88458EA5DA12D6644132C5F4FB04493C8BE44CBFC7F0AD0BE4DF080E17482C0AD22D84AD04BE6D2A04B9E523B0AF682DB84936BB496BDFF1BB85D104366339C450567624A800C2C12500071EF8CDBD8DF96F76AADC249787B938A74B058DB1F5341E5B5D4E1732154A8D081D1E87672013CE4A1765F989979A5A6EE7A9DEF3607709ACAA78E1536A0513C5027EE003AE79783C804FE92BE79CD79E52F501654EC47D956A4714171E5C60679C4F1707881F2EE783DEF12A89964CB90E39ED9A1BEEF07A7A3DED2CE8756CBB710705DFC4FA9AF42C6A181ADCCD095CDB1CA7C65D3384926BAC323A4C44D4F38F28A242B54CBF54492FD710851FB179246430680ACC2FE32F975BE24B62C349A82BD14C6" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Platform" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+    <item name="HTTP_RA_VER">
+      <value string="2.2.25" />
+    </item>
+    <item name="HTTP_RA_SID">
+      <value string="7509670E-20140628-044314-ef4337-678565" />
+    </item>
+    <item name="HTTP_ALEXATOOLBAR_ALX_NS_PH">
+      <value string="AlexaToolbar/alxg-3.3" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="82dKHmeoq9EVdjx35jdZ5VW9K1nfKScHr8VOdHj-ICxulMq37EdMBYjBUNuB3jHff9QiKHEN7ld1DSEZIsxVNb6_FjNXCOxB8S6nGSswZNo1" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="hbw4lr4uqfba0xcbyiqessyd" />
+    </item>
+    <item name=".ASPXAUTH">
+      <value string="E88458EA5DA12D6644132C5F4FB04493C8BE44CBFC7F0AD0BE4DF080E17482C0AD22D84AD04BE6D2A04B9E523B0AF682DB84936BB496BDFF1BB85D104366339C450567624A800C2C12500071EF8CDBD8DF96F76AADC249787B938A74B058DB1F5341E5B5D4E1732154A8D081D1E87672013CE4A1765F989979A5A6EE7A9DEF3607709ACAA78E1536A0513C5027EE003AE79783C804FE92BE79CD79E52F501654EC47D956A4714171E5C60679C4F1707881F2EE783DEF12A89964CB90E39ED9A1BEEF07A7A3DED2CE8756CBB710705DFC4FA9AF42C6A181ADCCD095CDB1CA7C65D3384926BAC323A4C44D4F38F28A242B54CBF54492FD710851FB179246430680ACC2FE32F975BE24B62C349A82BD14C6" />
+    </item>
+  </cookies>
+</error>

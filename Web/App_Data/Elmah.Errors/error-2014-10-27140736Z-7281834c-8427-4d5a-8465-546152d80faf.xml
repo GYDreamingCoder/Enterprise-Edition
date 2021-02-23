@@ -1,0 +1,188 @@
+﻿<error errorId="7281834c-8427-4d5a-8465-546152d80faf" application="/LM/W3SVC/121/ROOT" host="SLEEPY-PIG" type="System.InvalidOperationException" message="在当前应用程序配置中不支持 WebSockets。 要启用它，请在 Web.config 中设置以下配置开关:&#xD;&#xA;&lt;system.web&gt;&#xD;&#xA;  &lt;httpRuntime targetFramework=&quot;4.5&quot; /&gt;&#xD;&#xA;&lt;/system.web&gt;&#xD;&#xA;有关详细信息，请参阅: http://go.microsoft.com/fwlink/?LinkId=252465。" source="System.Web" detail="System.InvalidOperationException: 在当前应用程序配置中不支持 WebSockets。 要启用它，请在 Web.config 中设置以下配置开关:&#xD;&#xA;&lt;system.web&gt;&#xD;&#xA;  &lt;httpRuntime targetFramework=&quot;4.5&quot; /&gt;&#xD;&#xA;&lt;/system.web&gt;&#xD;&#xA;有关详细信息，请参阅: http://go.microsoft.com/fwlink/?LinkId=252465。&#xD;&#xA;   在 System.Web.Util.SynchronizationContextUtil.ValidateMode(SynchronizationContextMode currentMode, SynchronizationContextMode requiredMode, String specificErrorMessage)&#xD;&#xA;   在 System.Web.Util.SynchronizationContextUtil.ValidateModeForWebSockets()&#xD;&#xA;   在 System.Web.HttpContext.AcceptWebSocketRequest(Func`2 userFunc, AspNetWebSocketOptions options)&#xD;&#xA;   在 System.Web.HttpContextWrapper.AcceptWebSocketRequest(Func`2 userFunc, AspNetWebSocketOptions options)&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.OwinCallContext.DoWebSocketUpgrade(IDictionary`2 acceptOptions, Func`2 webSocketFunc)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Transports.WebSocketTransport.AcceptWebSocketRequest(Func`2 callback)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Transports.WebSocketTransport.ProcessRequest(ITransportConnection connection)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(HostContext context)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ProcessRequest(HostContext context)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(IDictionary`2 environment)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Owin.Middleware.HubDispatcherMiddleware.Invoke(IOwinContext context)&#xD;&#xA;   在 Microsoft.Owin.Mapping.MapMiddleware.&lt;Invoke&gt;d__0.MoveNext()&#xD;&#xA;--- 引发异常的上一位置中堆栈跟踪的末尾 ---&#xD;&#xA;   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.Infrastructure.ErrorState.Rethrow()&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.EndFinalWork(IAsyncResult ar)&#xD;&#xA;   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="f9831502-0120-4241-8188-dcfc652a8271,8030d500-832c-477b-8f51-4d7f6c5d4d89" time="2014-10-27T14:07:36.2189060Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:no-cache&#xD;&#xA;HTTP_CONNECTION:Upgrade&#xD;&#xA;HTTP_UPGRADE:Websocket&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=xDGCQ7yWbhj8mdawH1onJvQip1hbtIUYSK7hvSQhrBqOLNr30s44bymCAijJXanyI9AbJ5ElVGAyZzs81BYDcpPGOevmjysJORd3rEHsR6Y1; ASP.NET_SessionId=pifljjzcylktsbn3q2sl1pi2; mpms 2.0=B15D82BC8C0BE695CCBB830E74F9D159E73ACCFD58440C10F5814007AB04E8E722754144CDA8DDF4D8FA8667FF1BCE746140697B3D56872F4A2C99D316EB20117E01D3B4449E1BCD2F8ED024C1C9C458A3027EDAC7230BF9A8DB4470B188678C5D050A8888A404D026395535776020417038E0166AB8000949068FAA1FD9C8349EE4CCF26306DD45759ED116145544B8F007FEDB360B664EAB3B72B241AF34D0CABAFDFE8B1026512BF71BC0A8313AC93A77755B1B522190CEBE554CB00332FEF6215D6241EEBFEC427A97EDC500E3C363B05FB8FA41EB538C4A113B224D3909A00F49299EE6A687CC9826F5DB7E4B64483F11C7AB499CB3FD0B7B068E98CDF088F38352495FD2838585DDCD6F65994A&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/6.0)&#xD;&#xA;HTTP_ORIGIN:http://localhost:46648&#xD;&#xA;HTTP_SEC_WEBSOCKET_KEY:e5LrGISgoyiJTWTcUXuyHw==&#xD;&#xA;HTTP_SEC_WEBSOCKET_VERSION:13&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: no-cache&#xD;&#xA;Connection: Upgrade&#xD;&#xA;Upgrade: Websocket&#xD;&#xA;Cookie: __RequestVerificationToken=xDGCQ7yWbhj8mdawH1onJvQip1hbtIUYSK7hvSQhrBqOLNr30s44bymCAijJXanyI9AbJ5ElVGAyZzs81BYDcpPGOevmjysJORd3rEHsR6Y1; ASP.NET_SessionId=pifljjzcylktsbn3q2sl1pi2; mpms 2.0=B15D82BC8C0BE695CCBB830E74F9D159E73ACCFD58440C10F5814007AB04E8E722754144CDA8DDF4D8FA8667FF1BCE746140697B3D56872F4A2C99D316EB20117E01D3B4449E1BCD2F8ED024C1C9C458A3027EDAC7230BF9A8DB4470B188678C5D050A8888A404D026395535776020417038E0166AB8000949068FAA1FD9C8349EE4CCF26306DD45759ED116145544B8F007FEDB360B664EAB3B72B241AF34D0CABAFDFE8B1026512BF71BC0A8313AC93A77755B1B522190CEBE554CB00332FEF6215D6241EEBFEC427A97EDC500E3C363B05FB8FA41EB538C4A113B224D3909A00F49299EE6A687CC9826F5DB7E4B64483F11C7AB499CB3FD0B7B068E98CDF088F38352495FD2838585DDCD6F65994A&#xD;&#xA;Host: localhost:46648&#xD;&#xA;User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/6.0)&#xD;&#xA;Origin: http://localhost:46648&#xD;&#xA;Sec-WebSocket-Key: e5LrGISgoyiJTWTcUXuyHw==&#xD;&#xA;Sec-WebSocket-Version: 13&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/121/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="D:\新建文件夹\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="f9831502-0120-4241-8188-dcfc652a8271,8030d500-832c-477b-8f51-4d7f6c5d4d89" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="f9831502-0120-4241-8188-dcfc652a8271,8030d500-832c-477b-8f51-4d7f6c5d4d89" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="121" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/121" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="D:\新建文件夹\Enterprise Edition\Web\signalr\connect" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="transport=webSockets&amp;clientProtocol=1.4&amp;connectionToken=sMR%2BSll2cB0BbYRfNG83%2BRgtJR7SKq7g2xTI7K9HYP3usZNz7o5yqyMYTBM0YIh%2FJbURTMjkz9LNecXkxcw%2BKkBrHo4LirTb%2FN1lQh2yD90n%2Bx79BX1OL1PJUtwYYLB5aLcwAAAqwvWg0f7%2FLhZgMugjs6AOkx3JlrWxUDjA6BEWA6kbWFjn85PTP7MyIZL7YhhhGBwrQhJTu7XMkaaWEw%3D%3D&amp;connectionData=%5B%7B%22name%22%3A%22messenger%22%7D%5D&amp;tid=4" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="8878" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Upgrade" />
+    </item>
+    <item name="HTTP_UPGRADE">
+      <value string="Websocket" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=xDGCQ7yWbhj8mdawH1onJvQip1hbtIUYSK7hvSQhrBqOLNr30s44bymCAijJXanyI9AbJ5ElVGAyZzs81BYDcpPGOevmjysJORd3rEHsR6Y1; ASP.NET_SessionId=pifljjzcylktsbn3q2sl1pi2; mpms 2.0=B15D82BC8C0BE695CCBB830E74F9D159E73ACCFD58440C10F5814007AB04E8E722754144CDA8DDF4D8FA8667FF1BCE746140697B3D56872F4A2C99D316EB20117E01D3B4449E1BCD2F8ED024C1C9C458A3027EDAC7230BF9A8DB4470B188678C5D050A8888A404D026395535776020417038E0166AB8000949068FAA1FD9C8349EE4CCF26306DD45759ED116145544B8F007FEDB360B664EAB3B72B241AF34D0CABAFDFE8B1026512BF71BC0A8313AC93A77755B1B522190CEBE554CB00332FEF6215D6241EEBFEC427A97EDC500E3C363B05FB8FA41EB538C4A113B224D3909A00F49299EE6A687CC9826F5DB7E4B64483F11C7AB499CB3FD0B7B068E98CDF088F38352495FD2838585DDCD6F65994A" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/6.0)" />
+    </item>
+    <item name="HTTP_ORIGIN">
+      <value string="http://localhost:46648" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_KEY">
+      <value string="e5LrGISgoyiJTWTcUXuyHw==" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_VERSION">
+      <value string="13" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="transport">
+      <value string="webSockets" />
+    </item>
+    <item name="clientProtocol">
+      <value string="1.4" />
+    </item>
+    <item name="connectionToken">
+      <value string="sMR+Sll2cB0BbYRfNG83+RgtJR7SKq7g2xTI7K9HYP3usZNz7o5yqyMYTBM0YIh/JbURTMjkz9LNecXkxcw+KkBrHo4LirTb/N1lQh2yD90n+x79BX1OL1PJUtwYYLB5aLcwAAAqwvWg0f7/LhZgMugjs6AOkx3JlrWxUDjA6BEWA6kbWFjn85PTP7MyIZL7YhhhGBwrQhJTu7XMkaaWEw==" />
+    </item>
+    <item name="connectionData">
+      <value string="[{&quot;name&quot;:&quot;messenger&quot;}]" />
+    </item>
+    <item name="tid">
+      <value string="4" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="xDGCQ7yWbhj8mdawH1onJvQip1hbtIUYSK7hvSQhrBqOLNr30s44bymCAijJXanyI9AbJ5ElVGAyZzs81BYDcpPGOevmjysJORd3rEHsR6Y1" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="pifljjzcylktsbn3q2sl1pi2" />
+    </item>
+    <item name="mpms 2.0">
+      <value string="B15D82BC8C0BE695CCBB830E74F9D159E73ACCFD58440C10F5814007AB04E8E722754144CDA8DDF4D8FA8667FF1BCE746140697B3D56872F4A2C99D316EB20117E01D3B4449E1BCD2F8ED024C1C9C458A3027EDAC7230BF9A8DB4470B188678C5D050A8888A404D026395535776020417038E0166AB8000949068FAA1FD9C8349EE4CCF26306DD45759ED116145544B8F007FEDB360B664EAB3B72B241AF34D0CABAFDFE8B1026512BF71BC0A8313AC93A77755B1B522190CEBE554CB00332FEF6215D6241EEBFEC427A97EDC500E3C363B05FB8FA41EB538C4A113B224D3909A00F49299EE6A687CC9826F5DB7E4B64483F11C7AB499CB3FD0B7B068E98CDF088F38352495FD2838585DDCD6F65994A" />
+    </item>
+  </cookies>
+</error>

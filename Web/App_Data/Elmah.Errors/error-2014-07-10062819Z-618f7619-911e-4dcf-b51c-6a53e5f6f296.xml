@@ -1,0 +1,185 @@
+﻿<error errorId="618f7619-911e-4dcf-b51c-6a53e5f6f296" application="/LM/W3SVC/10/ROOT" host="EVAN-PC" type="System.NotSupportedException" message="LINQ to Entities 不识别方法“System.DateTime AddDays(Double)”，因此该方法无法转换为存储表达式。" source="EntityFramework" detail="System.NotSupportedException: LINQ to Entities 不识别方法“System.DateTime AddDays(Double)”，因此该方法无法转换为存储表达式。&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.NotTranslator.TypedTranslate(ExpressionConverter parent, UnaryExpression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding&amp; binding)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass7.&lt;GetResults&gt;b__6()&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass7.&lt;GetResults&gt;b__5()&#xD;&#xA;   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)&#xD;&#xA;   在 System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__0()&#xD;&#xA;   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()&#xD;&#xA;   在 ASP._Page_Areas_Platform_Views_MyPlan_Index_cshtml.Execute() 位置 c:\Projects\mpms.wjw1.com\Enterprise Edition\Web\Areas\Platform\Views\MyPlan\Index.cshtml:行号 69&#xD;&#xA;   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()&#xD;&#xA;   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()&#xD;&#xA;   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)&#xD;&#xA;   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)&#xD;&#xA;   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)&#xD;&#xA;   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)&#xD;&#xA;   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__15(IAsyncResult asyncResult, Controller controller)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" time="2014-07-10T06:28:19.6863362Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip,deflate,sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;HTTP_COOKIE:mpms 2.0=ED3D717593ABF442B562A5D079802C614767708E3CCE0BCCEC17125A8204D663D743A111F8915E76972E74BCEEFFD1EDEACEFC889D877E634861A178E91F88930E4852B73B2F34E71F5BECC84FE039DC6D0A4A4A770916D8B4D5B66EDA17D6F3EF9F7D258963B4FB0709BB28A983AF8CF7221FA799F92B4B59B794D7B56A49F2A229132D33B78273A63D606864E636C643B385484B061735232B70D7B5289C8E67421814DFCCB28C8C586A78A180A3E1E014790E77306309CEDB12430A064C7D37EFE81F4D506957E94AB9694E8612062190FA6B96884ED289D9F013872DBAB97E7D929479D4475B8A02523AB155829131B1CD68BC11EC127B077219E651CB7A4E0ABCFDE2299A75888689723DA8A020&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Platform&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;HTTP_RA_VER:2.2.30&#xD;&#xA;HTTP_RA_SID:7509670E-20140628-044314-ef4337-678565&#xD;&#xA;HTTP_ALEXATOOLBAR_ALX_NS_PH:AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip,deflate,sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;Cookie: mpms 2.0=ED3D717593ABF442B562A5D079802C614767708E3CCE0BCCEC17125A8204D663D743A111F8915E76972E74BCEEFFD1EDEACEFC889D877E634861A178E91F88930E4852B73B2F34E71F5BECC84FE039DC6D0A4A4A770916D8B4D5B66EDA17D6F3EF9F7D258963B4FB0709BB28A983AF8CF7221FA799F92B4B59B794D7B56A49F2A229132D33B78273A63D606864E636C643B385484B061735232B70D7B5289C8E67421814DFCCB28C8C586A78A180A3E1E014790E77306309CEDB12430A064C7D37EFE81F4D506957E94AB9694E8612062190FA6B96884ED289D9F013872DBAB97E7D929479D4475B8A02523AB155829131B1CD68BC11EC127B077219E651CB7A4E0ABCFDE2299A75888689723DA8A020&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Platform&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;DNT: 1&#xD;&#xA;RA-Ver: 2.2.30&#xD;&#xA;RA-Sid: 7509670E-20140628-044314-ef4337-678565&#xD;&#xA;AlexaToolbar-ALX_NS_PH: AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/10/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="10" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/10" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Platform/MyPlan" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\Platform\MyPlan" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="X-Requested-With=XMLHttpRequest&amp;_=1404972538077" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="45891" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Platform/MyPlan" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Platform/MyPlan" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip,deflate,sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="mpms 2.0=ED3D717593ABF442B562A5D079802C614767708E3CCE0BCCEC17125A8204D663D743A111F8915E76972E74BCEEFFD1EDEACEFC889D877E634861A178E91F88930E4852B73B2F34E71F5BECC84FE039DC6D0A4A4A770916D8B4D5B66EDA17D6F3EF9F7D258963B4FB0709BB28A983AF8CF7221FA799F92B4B59B794D7B56A49F2A229132D33B78273A63D606864E636C643B385484B061735232B70D7B5289C8E67421814DFCCB28C8C586A78A180A3E1E014790E77306309CEDB12430A064C7D37EFE81F4D506957E94AB9694E8612062190FA6B96884ED289D9F013872DBAB97E7D929479D4475B8A02523AB155829131B1CD68BC11EC127B077219E651CB7A4E0ABCFDE2299A75888689723DA8A020" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Platform" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+    <item name="HTTP_RA_VER">
+      <value string="2.2.30" />
+    </item>
+    <item name="HTTP_RA_SID">
+      <value string="7509670E-20140628-044314-ef4337-678565" />
+    </item>
+    <item name="HTTP_ALEXATOOLBAR_ALX_NS_PH">
+      <value string="AlexaToolbar/alxg-3.3" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="X-Requested-With">
+      <value string="XMLHttpRequest" />
+    </item>
+    <item name="_">
+      <value string="1404972538077" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="mpms 2.0">
+      <value string="ED3D717593ABF442B562A5D079802C614767708E3CCE0BCCEC17125A8204D663D743A111F8915E76972E74BCEEFFD1EDEACEFC889D877E634861A178E91F88930E4852B73B2F34E71F5BECC84FE039DC6D0A4A4A770916D8B4D5B66EDA17D6F3EF9F7D258963B4FB0709BB28A983AF8CF7221FA799F92B4B59B794D7B56A49F2A229132D33B78273A63D606864E636C643B385484B061735232B70D7B5289C8E67421814DFCCB28C8C586A78A180A3E1E014790E77306309CEDB12430A064C7D37EFE81F4D506957E94AB9694E8612062190FA6B96884ED289D9F013872DBAB97E7D929479D4475B8A02523AB155829131B1CD68BC11EC127B077219E651CB7A4E0ABCFDE2299A75888689723DA8A020" />
+    </item>
+  </cookies>
+</error>

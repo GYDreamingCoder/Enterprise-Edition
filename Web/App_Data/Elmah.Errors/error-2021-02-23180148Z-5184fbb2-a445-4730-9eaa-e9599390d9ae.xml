@@ -1,0 +1,180 @@
+﻿<error errorId="5184fbb2-a445-4730-9eaa-e9599390d9ae" application="/LM/W3SVC/2/ROOT" host="LAPTOP-MQPUDGS5" type="System.Web.HttpException" message="未找到路径“/content/icon/menu@2x.png”的控制器或该控制器未实现 IController。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 未找到路径“/content/icon/menu@2x.png”的控制器或该控制器未实现 IController。&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)&#xD;&#xA;   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="5591e312-efd2-43ae-8a2e-7c6e025f4429,3f0fc967-5f19-4c48-93af-4d6dac441f60" time="2021-02-23T18:01:48.0308283Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, br&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6&#xD;&#xA;HTTP_COOKIE:yz-lcid=2052; ASP.NET_SessionId=pseaegifrh0o1kkifnotwafu; __RequestVerificationToken=-8cNyhEdmvQMCOXnl3AxXI0l3okSMlCDJxj84dDFp_Bmydg0llsBmknrvo0Dm8GDhGv1VVvzwYg2XUda_sszOqjMlLFeMSKqcR7Q_PtURds1; mpms 2.0=577D673395BA6CB2116A2A2E9F3E69374E5F157378D32E8E15F1632317AC9F567E96E7D49EE15C91399433BDE37A13F860D130B8AD9B486150360ECB8B5AF3CF13DBA85522C3AD76F8E00015F140A75318EA58675CAECCBD81271C09DA4886C23E0B7C84F438561ACE9C23D5A69FC48BF85FB0F7C806244A221B09A29A026AE0D3B0B8A2E68DB97968B8B64C70D7FE01AD586D8E8E2DCBEB72B9C1DD4C7839B5CFDC922EA7891458A375121E28C30DE3C3D967F8B3841C208DEE6A832CB8EE4AAE83C4F74A0085CE30B550ECA4AD144728406C233C762C760EA312E1ADD921B3096B6FA111388B85B39B7CCC7786976D9ED1F95A71ACB0C948B70956FD97C666114B2B533CF17640A130ADFDAE735BE4&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Content/body.css&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74&#xD;&#xA;HTTP_SEC_FETCH_SITE:same-origin&#xD;&#xA;HTTP_SEC_FETCH_MODE:no-cors&#xD;&#xA;HTTP_SEC_FETCH_DEST:image&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, br&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6&#xD;&#xA;Cookie: yz-lcid=2052; ASP.NET_SessionId=pseaegifrh0o1kkifnotwafu; __RequestVerificationToken=-8cNyhEdmvQMCOXnl3AxXI0l3okSMlCDJxj84dDFp_Bmydg0llsBmknrvo0Dm8GDhGv1VVvzwYg2XUda_sszOqjMlLFeMSKqcR7Q_PtURds1; mpms 2.0=577D673395BA6CB2116A2A2E9F3E69374E5F157378D32E8E15F1632317AC9F567E96E7D49EE15C91399433BDE37A13F860D130B8AD9B486150360ECB8B5AF3CF13DBA85522C3AD76F8E00015F140A75318EA58675CAECCBD81271C09DA4886C23E0B7C84F438561ACE9C23D5A69FC48BF85FB0F7C806244A221B09A29A026AE0D3B0B8A2E68DB97968B8B64C70D7FE01AD586D8E8E2DCBEB72B9C1DD4C7839B5CFDC922EA7891458A375121E28C30DE3C3D967F8B3841C208DEE6A832CB8EE4AAE83C4F74A0085CE30B550ECA4AD144728406C233C762C760EA312E1ADD921B3096B6FA111388B85B39B7CCC7786976D9ED1F95A71ACB0C948B70956FD97C666114B2B533CF17640A130ADFDAE735BE4&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Content/body.css&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74&#xD;&#xA;Sec-Fetch-Site: same-origin&#xD;&#xA;Sec-Fetch-Mode: no-cors&#xD;&#xA;Sec-Fetch-Dest: image&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\高扬LXM\Desktop\字典\MVC5\MVC+EF项目\综合管理系统源码Enterprise Edition-vs2017可编译版本\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="5591e312-efd2-43ae-8a2e-7c6e025f4429,3f0fc967-5f19-4c48-93af-4d6dac441f60" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="5591e312-efd2-43ae-8a2e-7c6e025f4429,3f0fc967-5f19-4c48-93af-4d6dac441f60" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/content/icon/menu@2x.png" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\高扬LXM\Desktop\字典\MVC5\MVC+EF项目\综合管理系统源码Enterprise Edition-vs2017可编译版本\Enterprise Edition\Web\content\icon\menu@2x.png" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="62888" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/content/icon/menu@2x.png" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/content/icon/menu@2x.png" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, br" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="yz-lcid=2052; ASP.NET_SessionId=pseaegifrh0o1kkifnotwafu; __RequestVerificationToken=-8cNyhEdmvQMCOXnl3AxXI0l3okSMlCDJxj84dDFp_Bmydg0llsBmknrvo0Dm8GDhGv1VVvzwYg2XUda_sszOqjMlLFeMSKqcR7Q_PtURds1; mpms 2.0=577D673395BA6CB2116A2A2E9F3E69374E5F157378D32E8E15F1632317AC9F567E96E7D49EE15C91399433BDE37A13F860D130B8AD9B486150360ECB8B5AF3CF13DBA85522C3AD76F8E00015F140A75318EA58675CAECCBD81271C09DA4886C23E0B7C84F438561ACE9C23D5A69FC48BF85FB0F7C806244A221B09A29A026AE0D3B0B8A2E68DB97968B8B64C70D7FE01AD586D8E8E2DCBEB72B9C1DD4C7839B5CFDC922EA7891458A375121E28C30DE3C3D967F8B3841C208DEE6A832CB8EE4AAE83C4F74A0085CE30B550ECA4AD144728406C233C762C760EA312E1ADD921B3096B6FA111388B85B39B7CCC7786976D9ED1F95A71ACB0C948B70956FD97C666114B2B533CF17640A130ADFDAE735BE4" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Content/body.css" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" />
+    </item>
+    <item name="HTTP_SEC_FETCH_SITE">
+      <value string="same-origin" />
+    </item>
+    <item name="HTTP_SEC_FETCH_MODE">
+      <value string="no-cors" />
+    </item>
+    <item name="HTTP_SEC_FETCH_DEST">
+      <value string="image" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="yz-lcid">
+      <value string="2052" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="pseaegifrh0o1kkifnotwafu" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="-8cNyhEdmvQMCOXnl3AxXI0l3okSMlCDJxj84dDFp_Bmydg0llsBmknrvo0Dm8GDhGv1VVvzwYg2XUda_sszOqjMlLFeMSKqcR7Q_PtURds1" />
+    </item>
+    <item name="mpms 2.0">
+      <value string="577D673395BA6CB2116A2A2E9F3E69374E5F157378D32E8E15F1632317AC9F567E96E7D49EE15C91399433BDE37A13F860D130B8AD9B486150360ECB8B5AF3CF13DBA85522C3AD76F8E00015F140A75318EA58675CAECCBD81271C09DA4886C23E0B7C84F438561ACE9C23D5A69FC48BF85FB0F7C806244A221B09A29A026AE0D3B0B8A2E68DB97968B8B64C70D7FE01AD586D8E8E2DCBEB72B9C1DD4C7839B5CFDC922EA7891458A375121E28C30DE3C3D967F8B3841C208DEE6A832CB8EE4AAE83C4F74A0085CE30B550ECA4AD144728406C233C762C760EA312E1ADD921B3096B6FA111388B85B39B7CCC7786976D9ED1F95A71ACB0C948B70956FD97C666114B2B533CF17640A130ADFDAE735BE4" />
+    </item>
+  </cookies>
+</error>

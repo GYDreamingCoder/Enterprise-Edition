@@ -1,0 +1,188 @@
+﻿<error errorId="9ce91003-2558-4b81-bfcf-cc1968f991bf" application="/LM/W3SVC/10/ROOT" host="EVAN-PC" type="System.Web.HttpException" message="在控制器“Web.Areas.Platform.Controllers.ActivityUserController”上未找到公共操作方法“Delete”。" source="System.Web.Mvc" detail="System.Web.HttpException (0x80004005): 在控制器“Web.Areas.Platform.Controllers.ActivityUserController”上未找到公共操作方法“Delete”。&#xD;&#xA;   在 System.Web.Mvc.Controller.HandleUnknownAction(String actionName)&#xD;&#xA;   在 System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__15(IAsyncResult asyncResult, Controller controller)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" time="2014-07-07T07:30:13.1155468Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip,deflate,sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=oody6zztcHO14KNI7ax8P01tgNRhl3mQWkqq9H9PDso1Q9lY-LNXJfMB-tWxGTCntDy9MY9J5y_cpUZy5wb1GYdY-6Fehgq-_60AQ8uokXY1; mpms 2.0=530162709A8BDC9146657EFD776532CD48649A5478B03195F973D86E88DBCBAAE5EC392A90C6E1A4C589BBC5DD07034BDEC7C0573254965727E416A2311FCECF662BBCB4F33646772000F256E5130007A041DD32661B4E18E48EB8FF6D8ABAA82D3A5B899613DA9C08156D38D48BD61364847F69810083DD75F9630D0A8D759504E5D2188D89F7441BC8648A43FE8E811F93420FAE6041D76C1C33D1B23CF721C4BC6F137835DA4AE36C1EA4045C9C760F388B94AA3D31BE9109C02204935AF6F3F972F2B8203999D45F701CBD8920E7B11BCE8A8842C9C4E520D8C1B9DA4B826ACCD0899F466CD0C01F78D64D5F07B24A83620440852B44AF81C9A97BABD64AD614BC962D3E269C79E91428C63B8519&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_REFERER:http://localhost:46648/Platform&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;HTTP_RA_VER:2.2.25&#xD;&#xA;HTTP_RA_SID:7509670E-20140628-044314-ef4337-678565&#xD;&#xA;HTTP_ALEXATOOLBAR_ALX_NS_PH:AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip,deflate,sdch&#xD;&#xA;Accept-Language: zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4&#xD;&#xA;Cookie: __RequestVerificationToken=oody6zztcHO14KNI7ax8P01tgNRhl3mQWkqq9H9PDso1Q9lY-LNXJfMB-tWxGTCntDy9MY9J5y_cpUZy5wb1GYdY-6Fehgq-_60AQ8uokXY1; mpms 2.0=530162709A8BDC9146657EFD776532CD48649A5478B03195F973D86E88DBCBAAE5EC392A90C6E1A4C589BBC5DD07034BDEC7C0573254965727E416A2311FCECF662BBCB4F33646772000F256E5130007A041DD32661B4E18E48EB8FF6D8ABAA82D3A5B899613DA9C08156D38D48BD61364847F69810083DD75F9630D0A8D759504E5D2188D89F7441BC8648A43FE8E811F93420FAE6041D76C1C33D1B23CF721C4BC6F137835DA4AE36C1EA4045C9C760F388B94AA3D31BE9109C02204935AF6F3F972F2B8203999D45F701CBD8920E7B11BCE8A8842C9C4E520D8C1B9DA4B826ACCD0899F466CD0C01F78D64D5F07B24A83620440852B44AF81C9A97BABD64AD614BC962D3E269C79E91428C63B8519&#xD;&#xA;Host: localhost:46648&#xD;&#xA;Referer: http://localhost:46648/Platform&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;DNT: 1&#xD;&#xA;RA-Ver: 2.2.25&#xD;&#xA;RA-Sid: 7509670E-20140628-044314-ef4337-678565&#xD;&#xA;AlexaToolbar-ALX_NS_PH: AlexaToolbar/alxg-3.3&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/10/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,09e7c1ff-aaa7-42fe-910a-b92394b648a8" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="10" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/10" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Platform/ActivityUser/Delete/6c779ce4-a4cf-4e1a-9048-d8b0de4ee1c8" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\Platform\ActivityUser\Delete\6c779ce4-a4cf-4e1a-9048-d8b0de4ee1c8" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="X-Requested-With=XMLHttpRequest&amp;_=1404718038841" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="11578" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Platform/ActivityUser/Delete/6c779ce4-a4cf-4e1a-9048-d8b0de4ee1c8" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Platform/ActivityUser/Delete/6c779ce4-a4cf-4e1a-9048-d8b0de4ee1c8" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip,deflate,sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=oody6zztcHO14KNI7ax8P01tgNRhl3mQWkqq9H9PDso1Q9lY-LNXJfMB-tWxGTCntDy9MY9J5y_cpUZy5wb1GYdY-6Fehgq-_60AQ8uokXY1; mpms 2.0=530162709A8BDC9146657EFD776532CD48649A5478B03195F973D86E88DBCBAAE5EC392A90C6E1A4C589BBC5DD07034BDEC7C0573254965727E416A2311FCECF662BBCB4F33646772000F256E5130007A041DD32661B4E18E48EB8FF6D8ABAA82D3A5B899613DA9C08156D38D48BD61364847F69810083DD75F9630D0A8D759504E5D2188D89F7441BC8648A43FE8E811F93420FAE6041D76C1C33D1B23CF721C4BC6F137835DA4AE36C1EA4045C9C760F388B94AA3D31BE9109C02204935AF6F3F972F2B8203999D45F701CBD8920E7B11BCE8A8842C9C4E520D8C1B9DA4B826ACCD0899F466CD0C01F78D64D5F07B24A83620440852B44AF81C9A97BABD64AD614BC962D3E269C79E91428C63B8519" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:46648/Platform" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+    <item name="HTTP_RA_VER">
+      <value string="2.2.25" />
+    </item>
+    <item name="HTTP_RA_SID">
+      <value string="7509670E-20140628-044314-ef4337-678565" />
+    </item>
+    <item name="HTTP_ALEXATOOLBAR_ALX_NS_PH">
+      <value string="AlexaToolbar/alxg-3.3" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="X-Requested-With">
+      <value string="XMLHttpRequest" />
+    </item>
+    <item name="_">
+      <value string="1404718038841" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="oody6zztcHO14KNI7ax8P01tgNRhl3mQWkqq9H9PDso1Q9lY-LNXJfMB-tWxGTCntDy9MY9J5y_cpUZy5wb1GYdY-6Fehgq-_60AQ8uokXY1" />
+    </item>
+    <item name="mpms 2.0">
+      <value string="530162709A8BDC9146657EFD776532CD48649A5478B03195F973D86E88DBCBAAE5EC392A90C6E1A4C589BBC5DD07034BDEC7C0573254965727E416A2311FCECF662BBCB4F33646772000F256E5130007A041DD32661B4E18E48EB8FF6D8ABAA82D3A5B899613DA9C08156D38D48BD61364847F69810083DD75F9630D0A8D759504E5D2188D89F7441BC8648A43FE8E811F93420FAE6041D76C1C33D1B23CF721C4BC6F137835DA4AE36C1EA4045C9C760F388B94AA3D31BE9109C02204935AF6F3F972F2B8203999D45F701CBD8920E7B11BCE8A8842C9C4E520D8C1B9DA4B826ACCD0899F466CD0C01F78D64D5F07B24A83620440852B44AF81C9A97BABD64AD614BC962D3E269C79E91428C63B8519" />
+    </item>
+  </cookies>
+</error>

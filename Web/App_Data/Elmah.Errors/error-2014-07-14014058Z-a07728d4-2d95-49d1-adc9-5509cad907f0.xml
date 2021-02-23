@@ -1,0 +1,188 @@
+﻿<error errorId="a07728d4-2d95-49d1-adc9-5509cad907f0" application="/LM/W3SVC/10/ROOT" host="EVAN-PC" type="System.InvalidOperationException" message="在当前应用程序配置中不支持 WebSockets。 要启用它，请在 Web.config 中设置以下配置开关:&#xD;&#xA;&lt;system.web&gt;&#xD;&#xA;  &lt;httpRuntime targetFramework=&quot;4.5&quot; /&gt;&#xD;&#xA;&lt;/system.web&gt;&#xD;&#xA;有关详细信息，请参阅: http://go.microsoft.com/fwlink/?LinkId=252465。" source="System.Web" detail="System.InvalidOperationException: 在当前应用程序配置中不支持 WebSockets。 要启用它，请在 Web.config 中设置以下配置开关:&#xD;&#xA;&lt;system.web&gt;&#xD;&#xA;  &lt;httpRuntime targetFramework=&quot;4.5&quot; /&gt;&#xD;&#xA;&lt;/system.web&gt;&#xD;&#xA;有关详细信息，请参阅: http://go.microsoft.com/fwlink/?LinkId=252465。&#xD;&#xA;   在 System.Web.Util.SynchronizationContextUtil.ValidateMode(SynchronizationContextMode currentMode, SynchronizationContextMode requiredMode, String specificErrorMessage)&#xD;&#xA;   在 System.Web.Util.SynchronizationContextUtil.ValidateModeForWebSockets()&#xD;&#xA;   在 System.Web.HttpContext.AcceptWebSocketRequest(Func`2 userFunc, AspNetWebSocketOptions options)&#xD;&#xA;   在 System.Web.HttpContextWrapper.AcceptWebSocketRequest(Func`2 userFunc, AspNetWebSocketOptions options)&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.OwinCallContext.DoWebSocketUpgrade(IDictionary`2 acceptOptions, Func`2 webSocketFunc)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Transports.WebSocketTransport.AcceptWebSocketRequest(Func`2 callback)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Transports.WebSocketTransport.ProcessRequest(ITransportConnection connection)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(HostContext context)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Hubs.HubDispatcher.ProcessRequest(HostContext context)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(IDictionary`2 environment)&#xD;&#xA;   在 Microsoft.AspNet.SignalR.Owin.Middleware.HubDispatcherMiddleware.Invoke(IOwinContext context)&#xD;&#xA;   在 Microsoft.Owin.Mapping.MapMiddleware.&lt;Invoke&gt;d__0.MoveNext()&#xD;&#xA;--- 引发异常的上一位置中堆栈跟踪的末尾 ---&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)&#xD;&#xA;   在 Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.EndFinalWork(IAsyncResult ar)&#xD;&#xA;   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="a31ee683-424f-463e-9cf7-8edcc12d605f,b72f05e1-3af8-402d-a803-61b913fd625e" time="2014-07-14T01:40:58.4710972Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:no-cache&#xD;&#xA;HTTP_CONNECTION:Upgrade&#xD;&#xA;HTTP_PRAGMA:no-cache&#xD;&#xA;HTTP_UPGRADE:websocket&#xD;&#xA;HTTP_COOKIE:mpms 2.0=70E70E81B815AAC927282AAB5C0CD5B7625FB398FE9345E2089691D95E39A46BCFC4B11BEA3D7D74F8F04BD3BCDCFDC8DC805F6996C57A5F21B049836F47154FA3BF20552F25203FC85150AB3CFB1A8B0DF2222B060FE46BC36AE0F5310B79B7AD7D64BBC55FBDA6380A3F26C5866C08F1AA52ECF565627CF3B88FC39DB14B2997EED7701D83499499CE5C8315FD66303AFBA10CF5BA0F450B6C5E49BC845B349A48246D8B6B98281B3D4EDD447E4526F2A970C69B1CCF42D8966CDEC8479E1642254BB5F60B57A4D6008FE2AFA77021E44F5568CB351671F441153E5B2A91402F4F8AC72186BCD0A0606220A3EE9A8381C549D684AADC459C3F7100444705889A3D0CC657C38E72C9FEE60729EC153D&#xD;&#xA;HTTP_HOST:localhost:46648&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;HTTP_ORIGIN:http://localhost:46648&#xD;&#xA;HTTP_SEC_WEBSOCKET_KEY:gNRazOMOh4c6K2zbC0qSZg==&#xD;&#xA;HTTP_SEC_WEBSOCKET_VERSION:13&#xD;&#xA;HTTP_SEC_WEBSOCKET_EXTENSIONS:permessage-deflate; client_max_window_bits, x-webkit-deflate-frame&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: no-cache&#xD;&#xA;Connection: Upgrade&#xD;&#xA;Pragma: no-cache&#xD;&#xA;Upgrade: websocket&#xD;&#xA;Cookie: mpms 2.0=70E70E81B815AAC927282AAB5C0CD5B7625FB398FE9345E2089691D95E39A46BCFC4B11BEA3D7D74F8F04BD3BCDCFDC8DC805F6996C57A5F21B049836F47154FA3BF20552F25203FC85150AB3CFB1A8B0DF2222B060FE46BC36AE0F5310B79B7AD7D64BBC55FBDA6380A3F26C5866C08F1AA52ECF565627CF3B88FC39DB14B2997EED7701D83499499CE5C8315FD66303AFBA10CF5BA0F450B6C5E49BC845B349A48246D8B6B98281B3D4EDD447E4526F2A970C69B1CCF42D8966CDEC8479E1642254BB5F60B57A4D6008FE2AFA77021E44F5568CB351671F441153E5B2A91402F4F8AC72186BCD0A0606220A3EE9A8381C549D684AADC459C3F7100444705889A3D0CC657C38E72C9FEE60729EC153D&#xD;&#xA;Host: localhost:46648&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36&#xD;&#xA;Origin: http://localhost:46648&#xD;&#xA;Sec-WebSocket-Key: gNRazOMOh4c6K2zbC0qSZg==&#xD;&#xA;Sec-WebSocket-Version: 13&#xD;&#xA;Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/10/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,b72f05e1-3af8-402d-a803-61b913fd625e" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="a31ee683-424f-463e-9cf7-8edcc12d605f,b72f05e1-3af8-402d-a803-61b913fd625e" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="10" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/10" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Projects\mpms.wjw1.com\Enterprise Edition\Web\signalr\connect" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="transport=webSockets&amp;clientProtocol=1.4&amp;connectionToken=UEIhmu%2B5LvU7pSvFq8e50V%2FV1Ge3J9VtMUEnaMh6Nte9zCsRydsRbuZBM4zDTIc0eDTj6bXXrOt79B5Mces8GgRrtioWz6lw6jsRfEkgrC%2FLdasb4Ldt6mV02zupLYyMA6FEL1rluS0LjCppxiagaMxVqz%2FME8V3FDr4cHNFvqIdr3XI%2FQUreX0hDNWwVB5haZhxw1z1TcdcsGA7H%2B5t7Q%3D%3D&amp;connectionData=%5B%7B%22name%22%3A%22messenger%22%7D%5D&amp;tid=9" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="65261" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="46648" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/signalr/connect" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Upgrade" />
+    </item>
+    <item name="HTTP_PRAGMA">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_UPGRADE">
+      <value string="websocket" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="mpms 2.0=70E70E81B815AAC927282AAB5C0CD5B7625FB398FE9345E2089691D95E39A46BCFC4B11BEA3D7D74F8F04BD3BCDCFDC8DC805F6996C57A5F21B049836F47154FA3BF20552F25203FC85150AB3CFB1A8B0DF2222B060FE46BC36AE0F5310B79B7AD7D64BBC55FBDA6380A3F26C5866C08F1AA52ECF565627CF3B88FC39DB14B2997EED7701D83499499CE5C8315FD66303AFBA10CF5BA0F450B6C5E49BC845B349A48246D8B6B98281B3D4EDD447E4526F2A970C69B1CCF42D8966CDEC8479E1642254BB5F60B57A4D6008FE2AFA77021E44F5568CB351671F441153E5B2A91402F4F8AC72186BCD0A0606220A3EE9A8381C549D684AADC459C3F7100444705889A3D0CC657C38E72C9FEE60729EC153D" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:46648" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_ORIGIN">
+      <value string="http://localhost:46648" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_KEY">
+      <value string="gNRazOMOh4c6K2zbC0qSZg==" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_VERSION">
+      <value string="13" />
+    </item>
+    <item name="HTTP_SEC_WEBSOCKET_EXTENSIONS">
+      <value string="permessage-deflate; client_max_window_bits, x-webkit-deflate-frame" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="transport">
+      <value string="webSockets" />
+    </item>
+    <item name="clientProtocol">
+      <value string="1.4" />
+    </item>
+    <item name="connectionToken">
+      <value string="UEIhmu+5LvU7pSvFq8e50V/V1Ge3J9VtMUEnaMh6Nte9zCsRydsRbuZBM4zDTIc0eDTj6bXXrOt79B5Mces8GgRrtioWz6lw6jsRfEkgrC/Ldasb4Ldt6mV02zupLYyMA6FEL1rluS0LjCppxiagaMxVqz/ME8V3FDr4cHNFvqIdr3XI/QUreX0hDNWwVB5haZhxw1z1TcdcsGA7H+5t7Q==" />
+    </item>
+    <item name="connectionData">
+      <value string="[{&quot;name&quot;:&quot;messenger&quot;}]" />
+    </item>
+    <item name="tid">
+      <value string="9" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="mpms 2.0">
+      <value string="70E70E81B815AAC927282AAB5C0CD5B7625FB398FE9345E2089691D95E39A46BCFC4B11BEA3D7D74F8F04BD3BCDCFDC8DC805F6996C57A5F21B049836F47154FA3BF20552F25203FC85150AB3CFB1A8B0DF2222B060FE46BC36AE0F5310B79B7AD7D64BBC55FBDA6380A3F26C5866C08F1AA52ECF565627CF3B88FC39DB14B2997EED7701D83499499CE5C8315FD66303AFBA10CF5BA0F450B6C5E49BC845B349A48246D8B6B98281B3D4EDD447E4526F2A970C69B1CCF42D8966CDEC8479E1642254BB5F60B57A4D6008FE2AFA77021E44F5568CB351671F441153E5B2A91402F4F8AC72186BCD0A0606220A3EE9A8381C549D684AADC459C3F7100444705889A3D0CC657C38E72C9FEE60729EC153D" />
+    </item>
+  </cookies>
+</error>
